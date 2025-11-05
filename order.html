@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Order - Caperone</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="page-order">
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">C</div>
+        <div>
+          <div class="site-title">Place Your Order</div>
+          <div style="font-size:13px;color:#666">Fast order — we’ll email you confirmation</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="form-section">
+      <form action="https://formsubmit.co/kennmuasya49@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Order from Caperone">
+        <div class="form-row">
+          <div class="form-col">
+            <label>Name <input type="text" name="name" required /></label>
+          </div>
+          <div class="form-col">
+            <label>Email <input type="email" name="email" required /></label>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-col">
+            <label>Phone <input type="text" name="phone" required /></label>
+          </div>
+          <div class="form-col">
+            <label>Product <input id="product-name" type="text" name="product" required /></label>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-col">
+            <label>Quantity <input type="number" name="quantity" min="1" value="1" required /></label>
+          </div>
+          <div class="form-col">
+            <label>Delivery Option
+              <select name="delivery">
+                <option>Standard (5-10 days)</option>
+                <option>Express (2-4 days)</option>
+                <option>Pick up</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <label>Delivery Address <textarea name="address" required></textarea></label>
+
+        <div style="display:flex;gap:12px;margin-top:12px;align-items:center">
+          <button class="btn primary" type="submit">Submit Order</button>
+          <a class="btn ghost" href="products.html">Continue Shopping</a>
+        </div>
+
+      </form>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Caperone Enterprises</strong>
+      <div style="color:#aaa;font-size:13px;margin-top:6px">+254706787860 • kennmuasya49@gmail.com</div>
+    </div>
+    <div class="links">
+      <a href="contact.html">Contact</a>
+      <a href="products.html">Products</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

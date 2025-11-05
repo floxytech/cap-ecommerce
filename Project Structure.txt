@@ -1,0 +1,19 @@
+caperone-enterprises/
+├── index.html
+├── products.html
+├── order.html
+├── contact.html
+├── assets/
+│   ├── images/
+│   │   ├── jewels-ring.jpg
+│   │   ├── jewels-necklace.jpg
+│   │   ├── shoes-sneaker.jpg
+│   │   ├── shoes-heels.jpg
+│   │   ├── phones-iphone.jpg
+│   │   ├── phones-tecno.jpg
+│   │   ├── wigs-curly.jpg
+│   │   └── wigs-straight.jpg
+├── css/
+│   └── style.css
+└── js/
+    └── main.js

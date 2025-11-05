@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Products - Caperone</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page-products">
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">C</div>
+        <div>
+          <div class="site-title">Products</div>
+          <div style="font-size:13px;color:#666">Explore our curated collection</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="order.html">Order</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="filters" aria-label="Filters">
+      <button class="filter-btn" data-cat="All">All</button>
+      <button class="filter-btn" data-cat="Jewels">Jewels</button>
+      <button class="filter-btn" data-cat="Shoes">Shoes</button>
+      <button class="filter-btn" data-cat="Phones">Phones</button>
+      <button class="filter-btn" data-cat="Wigs">Wigs</button>
+      <input id="search" class="search-input" placeholder="Search products or categories" />
+    </section>
+
+    <section>
+      <div id="products-grid" class="grid" aria-live="polite">
+        <!-- product cards rendered by JS -->
+      </div>
+    </section>
+  </div>
+
+  <div id="modal" class="modal" role="dialog" aria-modal="true">
+    <div id="modal-card" class="modal-card"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Caperone Enterprises</strong>
+      <div style="color:#aaa;font-size:13px;margin-top:6px">+254706787860 • kennmuasya49@gmail.com</div>
+    </div>
+    <div class="links">
+      <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
